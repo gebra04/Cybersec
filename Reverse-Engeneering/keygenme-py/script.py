@@ -14,15 +14,15 @@ key_full_template_trial = key_part_static1_trial + key_part_dynamic1_trial + key
 
 # Geração da chave com base no hash
 key = "picoCTF{1n_7h3_|<3y_of_"
-comp1 = hashlib.sha256(bUsername_trial).hexdigest()[4]
-comp2 = hashlib.sha256(bUsername_trial).hexdigest()[5]
-comp3 = hashlib.sha256(bUsername_trial).hexdigest()[3]
-comp4 = hashlib.sha256(bUsername_trial).hexdigest()[6]
-comp5 = hashlib.sha256(bUsername_trial).hexdigest()[2]
-comp6 = hashlib.sha256(bUsername_trial).hexdigest()[7]
-comp7 = hashlib.sha256(bUsername_trial).hexdigest()[1]
-comp8 = hashlib.sha256(bUsername_trial).hexdigest()[8]
-key += comp1 + comp2 + comp3 + comp4 + comp5 + comp6 + comp7 + comp8 + '}'
+key += hashlib.sha256(bUsername_trial).hexdigest()[4]
+key += hashlib.sha256(bUsername_trial).hexdigest()[5]
+key += hashlib.sha256(bUsername_trial).hexdigest()[3]
+key += hashlib.sha256(bUsername_trial).hexdigest()[6]
+key += hashlib.sha256(bUsername_trial).hexdigest()[2]
+key += hashlib.sha256(bUsername_trial).hexdigest()[7]
+key += hashlib.sha256(bUsername_trial).hexdigest()[1]
+key += hashlib.sha256(bUsername_trial).hexdigest()[8]
+key += '}'
 
 p.sendline(b'c')
 
