@@ -40,7 +40,7 @@ Colocando essa string como input do buffer você irá sobrescrever "pico" por "a
 
 Assim você consegue a flag ao digitar 4.
 
-# Resolução via pwntools:
+### Resolução via pwntools:
 ![image](https://github.com/user-attachments/assets/a63b90a8-f8c8-4770-8b1f-8519f5ac2077)
 
 
