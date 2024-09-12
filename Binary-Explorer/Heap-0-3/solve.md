@@ -40,7 +40,8 @@ Colocando essa string como input do buffer você irá sobrescrever "pico" por "a
 Assim você consegue a flag ao digitar 4.
 
 # Resolução via pwntools:
-![image](https://github.com/user-attachments/assets/b7f59996-690f-43d6-8da9-307f1a6fe4f9)
+![image](https://github.com/user-attachments/assets/a63b90a8-f8c8-4770-8b1f-8519f5ac2077)
+
 
 Criamos p como process para teste e depois partimos para o remote onde conseguiremos a flag verdadeira.
 ```python
