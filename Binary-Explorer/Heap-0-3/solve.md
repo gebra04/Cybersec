@@ -24,6 +24,7 @@ Esse exercício foi projetado para ser de estágio inicial, por isso a Heap pode
 ```
 
 Executando o código, é possivel descobrir os endereços de cada variável na heap.
+
 ![image](https://github.com/user-attachments/assets/655c496d-9e70-4afd-9f06-bb07769e6609)
 
 
