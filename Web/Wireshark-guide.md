@@ -118,7 +118,7 @@ Ctrl + S
 
 Seguir Fluxo TCP:
 
-Ctrl + Alt + T
+Ctrl + Alt + Shift + T
 
 Resetar Filtros:
 
