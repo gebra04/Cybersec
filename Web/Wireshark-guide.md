@@ -1,6 +1,6 @@
 # Guia de Wireshark para CTFs
 
-Este guia é uma cheat table para uso do Wireshark em competições de CTFs. Ele aborda tópicos comuns, comandos úteis, filtros essenciais e dicas para análise de tráfego de rede.
+Este guia é uma cheat table para uso do Wireshark em competições de CTFs. Ele aborda tópicos comuns, comandos úteis, filtros de pesquisa e dicas para análise de tráfego de rede.
 
 ---
 
@@ -45,12 +45,13 @@ Dicas para Configuração Inicial
 1. Filtros Essenciais
 
     Por Protocolo:
-
+```wireshark
 http || dns || ftp
-
+```
 Por Endereço IP:
-
+```wireshark
 ip.src == X.X.X.X || ip.dst == X.X.X.X
+```
 
 Por Palavra-Chave:
 
@@ -68,9 +69,9 @@ Por Palavra-Chave:
 3. Reduzindo o Ruído
 
     Para excluir pacotes irrelevantes e focar no tráfego necessário:
-
+```wireshark
     !arp && !icmp
-
+```
 Comandos Essenciais no Wireshark
 1. Exportação de Dados
 
